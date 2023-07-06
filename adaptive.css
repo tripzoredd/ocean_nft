@@ -1105,10 +1105,10 @@
     .footer-social {
         width: 161px;
     }
-
+    
     .footer-categoryes{
         display: flex;
-        margin-top: 3px;
+        margin-top: 0px;
         flex-direction: column;
         width: 150px;
     }
@@ -1132,13 +1132,17 @@
     }
 
     .accordion-item__content{
-        display: none;
+        overflow: hidden;
+        height: 0px;
+        position: relative;
+        z-index: 10;
+        border: none;
     }
 
     .accordion-item__input:checked ~ .accordion-item__content{
-        display: block;
+        height: 210px;
     }
-
+    
     .footer__content::before {
         width: 328px;
         margin-top: -15px;
