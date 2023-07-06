@@ -55,16 +55,10 @@ a {
     justify-content: space-between;
 }
 
-.header-menu__market,
-.header-menu__features,
-.header-menu__community{
-    opacity: 60%;
-}
-
 .header-menu__market:hover,
 .header-menu__features:hover,
 .header-menu__community:hover{
-    opacity: 100%;
+    text-decoration: underline;
 }
 
 .header-menu__busk-and-acc{
@@ -176,12 +170,6 @@ a {
     font-size: 20px;
     margin-left: 30px;
     margin-top: -5px;
-}
-
-.main-section__button2:hover{
-    background-image: linear-gradient(100deg, #ffffff, #ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .main-section__numbers{
@@ -421,9 +409,7 @@ a {
 }
 
 .top-nfts__button:hover{
-    background-image: linear-gradient(100deg, #43A5E3, #FF56F6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
 }
 
 .top-nfts__button img{
@@ -641,9 +627,7 @@ a {
 }
 
 .button__view:hover{
-    background-image: linear-gradient(100deg, #43A5E3, #FF56F6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
 }
 
 .explore-collections-acc__title{
@@ -673,9 +657,7 @@ a {
 }
 
 .button__view2:hover{
-    background-image: linear-gradient(100deg, #43A5E3, #FF56F6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
 }
 
 .explore-collections-cards{
@@ -1004,9 +986,7 @@ a {
 
 .learn-more__btn:hover,
 .video__btn:hover{
-    background-image: linear-gradient(100deg, #43A5E3, #FF56F6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
 }
 
 .subscribe-form__content{
@@ -1139,7 +1119,12 @@ a {
     width: 142px;
 }
 
-.accordion-item__content p{
+.accordion-item__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-item__content a{
     font-family: Inter;
     margin-bottom: -4px;
     margin-top: 24px;
@@ -1205,7 +1190,9 @@ a {
 }
 
 .last-line__last a:hover{
-    background-image: linear-gradient(100deg, #43A5E3, #FF56F6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline;
 }
